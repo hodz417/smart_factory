@@ -4,7 +4,7 @@ import numpy as np
 from ultralytics import YOLO
 
 def detect_fire(image):
-    model = YOLO("streamlit/StaffUniform/Model/Uniform.pt")
+    model = YOLO("smart_factory/streamlit/StaffUniform/Model/Uniform.pt")
     prediction = model.predict(image)
     return prediction, model.names
 
