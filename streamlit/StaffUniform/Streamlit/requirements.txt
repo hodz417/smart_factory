@@ -5,4 +5,4 @@ torch
 torchvision
 opencv-python-headless
 Pillow
-pip install opencv-python
+opencv-python
